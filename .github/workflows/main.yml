@@ -12,7 +12,7 @@ jobs:
       with:
         node-version: '18'
     
-    - name: install package.json
+    - name: install dependencies
       run: npm install
     
     - name: Run Test1

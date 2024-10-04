@@ -3,7 +3,7 @@ import axios from "axios";
 
 function add(a:number,b:number)
 {
-    return a + b;
+    return a - b;
 }
 
 async function addUser(data:any){

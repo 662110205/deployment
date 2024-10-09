@@ -20,8 +20,9 @@ function add(a, b) {
 function addUser(data) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield axios_1.default.post('https://jsonplaceholder.typicode.com/users', data);
-        console.log(response.data);
         return response.data;
     });
 }
-exports.Utils = { addUser };
+exports.Utils = { addUser, add };
+//web browser (google.com) ---> (request) ---> google company server
+//                 <html>... (html)  <-- (respon) -----google company server
